@@ -1,0 +1,116 @@
+*{
+    font-family: poppins;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9472, #ff6f61);
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* CTA CONTAINER */
+  .cta-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .phone-input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 250px;
+  }
+  
+  .cta-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* PLAY STORE BUTTON */
+  .playstore {
+    background: transparent;
+    margin-top: 15px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    
+  }
+  
+  .playstore:hover {
+    background-color: #333;
+  }
+  
+  /* HERO IMAGE */
+  .hero-image {
+    width: 100%;
+    max-width: 550px; /* Increase size */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 400px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-image {
+        max-width: 300px;
+    }
+}
+.input-field, .get-started-btn, .google-play-btn {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.input-field {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.get-started-btn {
+    background-color: #3CB043;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.get-started-btn:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
